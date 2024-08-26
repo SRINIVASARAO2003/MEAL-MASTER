@@ -1,0 +1,84 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Dark background */
+    color: #fff; /* Light text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent container background */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* White drop shadow effect */
+}
+
+.section {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background for sections */
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.input-fields label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.input-fields input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #fff; /* White border */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent input background */
+    color: #fff; /* Light text color */
+    font-size: 18px;
+    outline: none;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #007bff; /* Blue button background */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#bmi-result,
+#calories-result,
+#daily-calories {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#food-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#food-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background for food items */
+    padding: 10px;
+}
